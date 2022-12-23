@@ -1,17 +1,7 @@
 # Python Scientific Computing with Python Projects 
 
-Time Calculator assignment for [**FreeCodeCamp**][freecodecamp-url]. The section below explains all of the steps required to complete this assignment.
 
-
-Full Documentation: [**Documentation**][documentation-link]
-
-**Live Demo**: [**REPL**][repl-link] 
-
-
-
-
-
-## Assignment
+## Project
 
 Write a function named `add_time` that takes in two required parameters and one optional parameter:
 * a start time in the 12-hour clock format (ending in AM or PM) 
@@ -47,18 +37,3 @@ add_time("6:30 PM", "205:12")
 
 Do not import any Python libraries. Assume that the start times are valid times. The minutes in the duration time will be a whole number less than 60, but the hour can be any whole number.
 
-### Development
-
-Write your code in `time_calculator.py`. For development, you can use `main.py` to test your `time_calculator()` function. Click the "run" button and `main.py` will run.
-
-### Testing 
-
-The unit tests for this project are in `test_module.py`. We imported the tests from `test_module.py` to `main.py` for your convenience. The tests will run automatically whenever you hit the "run" button.
-
-### Submitting
-
-Copy your project's URL and submit it to freeCodeCamp.
-
-[freecodecamp-url]: https://www.freecodecamp.org/
-[documentation-link]: https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/time-calculator
-[repl-link]: https://repl.it/@cbedroid/boilerplate-time-calculator#time_calculator.py
